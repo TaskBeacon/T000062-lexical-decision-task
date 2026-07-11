@@ -1,0 +1,22 @@
+id: T000062
+slug: lexical-decision-task
+title: Lexical Decision Task
+acquisition: behavior
+variant: baseline
+cognitive_domain:
+  - language
+  - lexical-processing
+  - visual-word-recognition
+maturity: draft
+version:
+  release_tag: v0.1.0
+contracts:
+  taps: v0.2.0
+runtime:
+  profile: psyflow
+evidence:
+  - https://doi.org/10.1037/0033-295X.111.1.159
+  - https://doi.org/10.3758/BF03193014
+  - https://doi.org/10.1037/h0031564
+maintainer:
+  - TaskBeacon

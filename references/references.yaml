@@ -1,0 +1,84 @@
+task_id: T000062
+generated_at: '2026-07-11T19:43:35Z'
+selection_policy: tiered_mix_high_impact_plus_high_citation_open_access
+citation_threshold: 100
+papers:
+- id: W2020220682
+  title: A Diffusion Model Account of the Lexical Decision Task.
+  authors:
+  - Roger Ratcliff
+  - Pablo Gomez
+  - Gail McKoon
+  year: 2004
+  journal: Psychological Review
+  doi_or_url: https://doi.org/10.1037/0033-295X.111.1.159
+  citation_count: 587
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  - stimulus_parameters
+  - construct_validity
+  parameter_bindings:
+    condition_structure:
+    - high_frequency_word
+    - low_frequency_word
+    - pseudoword
+    block_size: 30
+    error_feedback_duration: 0.75
+    iti_duration: 0.15
+    response_analysis_window:
+    - 0.35
+    - 2.0
+  notes: Primary protocol source for single-string lexical decision, frequency classes,
+    pseudoword construction, keyboard response, feedback, blocks, and analysis window.
+- id: W2168979204
+  title: The English Lexicon Project
+  authors:
+  - David A. Balota
+  - Melvin J. Yap
+  - Michael J. Cortese
+  - Keith A. Hutchison
+  - Brett Kessler
+  - Bjorn Loftis
+  - James H. Neely
+  - Douglas L. Nelson
+  - Greg B. Simpson
+  - Rebecca Treiman
+  year: 2007
+  journal: Behavior Research Methods
+  doi_or_url: https://doi.org/10.3758/BF03193014
+  citation_count: 2803
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - construct_validity
+  - stimulus_parameters
+  - external_validation
+  parameter_bindings:
+    lexicality_balance: word versus nonword
+    primary_measures:
+    - accuracy
+    - response_time
+  notes: Large-scale validation source for visual lexical decision and standardized
+    word/nonword behavioral measures.
+- id: W1990948551
+  title: 'Facilitation in recognizing pairs of words: Evidence of a dependence between
+    retrieval operations.'
+  authors:
+  - David E. Meyer
+  - Roger W. Schvaneveldt
+  year: 1971
+  journal: Journal of Experimental Psychology
+  doi_or_url: https://doi.org/10.1037/h0031564
+  citation_count: 2949
+  is_high_impact: true
+  open_access: false
+  used_for:
+  - construct_validity
+  - historical_provenance
+  parameter_bindings:
+    decision_rule: word versus nonword
+  notes: Historical origin of the lexical decision procedure; the baseline task uses
+    single strings rather than the paper's paired semantic-priming display.
